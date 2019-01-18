@@ -173,6 +173,10 @@ input {
 	padding: 30px
 }
 
+header{
+	height: 355px;
+}
+
 .compreJunto {
 	padding: 0
 }
@@ -1203,7 +1207,7 @@ html {
 
 .application {
 	background-attachment: fixed;
-	background-color: #f1f1f1;
+	background-color: #0a0a0a;
 	background-position: center top
 }
 

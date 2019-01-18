@@ -1,49 +1,65 @@
 <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3 col-xs-12">
-            {% if pages.current == 'home' %}
-                <h1 class="site-logo" alt="{{ store.name }}">
-                    <a href="{{ links.home }}" data-tray-tst="logotipo_loja">{{ Image('logo') }}</a>
-                </h1>
-            {% else %}
-                <a href="{{ links.home }}" class="site-logo" data-tray-tst="logotipo_loja">{{ Image('logo') }}</a>
-            {% endif %}
-            </div>
-            
-            <div class="col-sm-9 col-xs-12">
-                {% element 'snippets/customer' %}
-                <div class="row">
-                    {% if settings.structure == 1 %}
-                    <div class="col-md-9 col-sm-8 hidden-xs">
-                    {% elseif settings.structure == 2 %}
-                    <div class="col-md-8 col-sm-8 hidden-xs">
-                    {% endif %}    
-                        {% element 'snippets/search' %}
-                    </div>
-                    
-                    {% if settings.structure == 1 %}
-                    <div class="col-md-3 col-sm-4 hidden-xs">
-                    {% elseif settings.structure == 2 %}
-                    <div class="col-md-4 col-sm-4 hidden-xs">
-                    {% endif %} 
-                        {% element 'snippets/cart' %}
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper-nav clearfix visible-xs-block">
-                <div class="col-xs-2">
-                    <button class="trigger-menu">
-                        <img src="{{ asset('img/menu.svg') }}" alt="Menu">
-                    </button>
-                </div>
-                <div class="col-xs-8">
-                    {% element 'snippets/search' %}
-                </div>
-                <div class="col-xs-2 wrapp-cart">
-                    {% element 'snippets/cart' %}
-                </div>
-            </div>
-        </div>
+  <div class="header">
+    <div class="logo-holder animated slideInDown">
+      {{ Image('logo') }}
     </div>
+    <div class="menu-holder animated slideInDown">
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> HEADSET</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> TECLADO</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> MOUSE</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> MONITOR</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> CADEIRA</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> MOUSEPAD</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="orange-plus">+</span> PLACA DE VÍDEO</button>
+        <div class="dropdown-content animated fadeIn">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu animated rotateIn"><span class="fas fa-bars"></span></div>
 </header>
