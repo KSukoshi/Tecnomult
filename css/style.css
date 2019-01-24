@@ -39,7 +39,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../img/city-background.jpg");
+  background-image: url("../images/city-background.jpg");
   overflow: none;
 }
 
@@ -55,7 +55,7 @@ body{
 .logo-holder{
   margin: auto;
   margin-left: 10%;
-  margin-top: 40px;
+  margin-top: 20px;
   width: 250px;
   height: auto;
 }
@@ -240,7 +240,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 20%;
+  margin-left: 16%;
   margin-top: 60px;
 }
 
@@ -256,7 +256,7 @@ body{
 }
 
 .text-post-front{
-  width: 40%;
+  width: 100%;
 }
 
 .dropbtn {
@@ -319,4 +319,51 @@ body{
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(187,187,187,0.2);
+}
+
+.product-column-holder{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.product-holder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.product-small{
+  height: 220px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+}
+
+.product-big-wide{
+  height: 450px;
+  width: 650px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #000000;
+}
+
+.product-big-tall{
+  height: 450px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #000000;
+}
+
+.header-fixed{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 120px;
+  width: 100%;
+  background-color: #0a0a0ab8;
 }
