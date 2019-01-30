@@ -368,6 +368,12 @@ body{
   margin-bottom: 10px;
   background-color: #000000;
   background-image: url('../img/corsback.jpg');
+  transition: 1s;
+}
+
+.product-small:hover{
+    background-image: url('../img/corsbackhover.jpg');
+    transition: 1s;
 }
 
 .product-small2{
@@ -377,6 +383,12 @@ body{
   margin-bottom: 10px;
   background-color: #000000;
   background-image: url('../img/roccback.jpg');
+  transition: 1s;
+}
+
+.product-small2:hover{
+    transition: 1s;
+    background-image: url('../img/roccbackhover.jpg');
 }
 
 .product-big-wide{
@@ -386,6 +398,12 @@ body{
   margin-left: 10px;
   background-color: #000000;
   background-image: url('../img/hyperxback.jpg');
+  transition: 1s;
+}
+
+.product-big-wide:hover{
+  background-image: url('../img/hyperxbackhover.jpg');
+  transition: 1s;
 }
 
 .product-big-tall{
@@ -395,6 +413,13 @@ body{
   margin-left: 10px;
   background-color: #000000;
   background-image: url('../img/logiback.jpg');
+  transition: 1s;
+}
+
+.product-big-tall:hover{
+  background-image: url('../img/logibackhover.jpg');
+  transition: 1s;
+
 }
 
 .header-fixed{
