@@ -39,7 +39,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../img/city-background.jpg");
+  background-image: url("../images/city-background.jpg");
   overflow: none;
 }
 
@@ -113,7 +113,6 @@ body{
   text-decoration: none;
   border: solid 2px;
   border-color: #ffffff;
-  margin-left: 10px;
   transition-duration: 1s;
 
 }
@@ -125,7 +124,36 @@ body{
 
 .btn-login:hover{
   cursor: pointer;
-  background: #6681f6;
+  background: #808080;
+  transition-duration: 1s;
+}
+
+.btn-login-black{
+  user-select: none;
+  background: transparent;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Helvetica Neue"
+  color: #000000;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  border: solid 2px;
+  border-color: #000000;
+  transition-duration: 1s;
+
+}
+
+.btn-login-black> a{
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.btn-login-black:hover{
+  cursor: pointer;
+  background: #e0e0e0;
   transition-duration: 1s;
 }
 
@@ -240,8 +268,7 @@ body{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 16%;
-  margin-top: 60px;
+  margin: auto;
 }
 
 .title-post-front{
@@ -331,7 +358,7 @@ body{
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .product-small{
@@ -340,6 +367,16 @@ body{
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #000000;
+  background-image: url('../images/corsback.jpg');
+}
+
+.product-small2{
+  height: 220px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+  background-image: url('../images/roccback.jpg');
 }
 
 .product-big-wide{
@@ -348,6 +385,7 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   background-color: #000000;
+  background-image: url('../images/hyperxback.jpg');
 }
 
 .product-big-tall{
@@ -356,6 +394,7 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   background-color: #000000;
+  background-image: url('../images/logiback.jpg');
 }
 
 .header-fixed{
@@ -365,7 +404,6 @@ body{
   flex-wrap: nowrap;
   height: 120px;
   width: 100.8%;
-  z-index: 100;
 }
 .header-bar{
   position: fixed;
@@ -373,5 +411,65 @@ body{
   height: 120px;
   width: 100%;
   background-color: #0a0a0a63;
-  z-index: 100;
+}
+
+.title-holder{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+.wide-title{
+  color: white;
+  font-family: 'Nova Square';
+  font-size: 38px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.small-title{
+  color: black;
+  font-family: 'Nova Square';
+  font-size: 32px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.small-title2{
+  color: white;
+  float: right;
+  font-family: 'Nova Square';
+  font-size: 32px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tall-title{
+  color: white;
+  font-family: 'Nova Square';
+  font-size: 38px;
+  margin-right: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-holder2{
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+.btn-holder3{
+  float: right;
+  margin-top: 105px;
+  margin-right: 10px;
+}
+.btn-holder4{
+  float: left;
+  margin-top: 74px;
+  margin-left: 30px;
+
 }
