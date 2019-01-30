@@ -367,7 +367,7 @@ body{
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #000000;
-  background-image: url('../images/corsback.jpg');
+  background-image: url('../img/corsback.jpg');
 }
 
 .product-small2{
@@ -376,7 +376,7 @@ body{
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #000000;
-  background-image: url('../images/roccback.jpg');
+  background-image: url('../img/roccback.jpg');
 }
 
 .product-big-wide{
@@ -385,7 +385,7 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   background-color: #000000;
-  background-image: url('../images/hyperxback.jpg');
+  background-image: url('../img/hyperxback.jpg');
 }
 
 .product-big-tall{
@@ -394,7 +394,7 @@ body{
   margin-top: 10px;
   margin-left: 10px;
   background-color: #000000;
-  background-image: url('../images/logiback.jpg');
+  background-image: url('../img/logiback.jpg');
 }
 
 .header-fixed{
