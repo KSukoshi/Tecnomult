@@ -404,6 +404,7 @@ body{
   flex-wrap: nowrap;
   height: 120px;
   width: 100.8%;
+  z-index: 100;
 }
 .header-bar{
   position: fixed;
@@ -411,6 +412,7 @@ body{
   height: 120px;
   width: 100%;
   background-color: #0a0a0a63;
+  z-index: 100;
 }
 
 .title-holder{
