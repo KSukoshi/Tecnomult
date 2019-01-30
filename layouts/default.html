@@ -44,7 +44,10 @@
 
     <div class="application">
 
-      
+      {% if pages.current in ['home'] %}
+      {% element 'header' %}
+      {% else %}
+      {% endif %}
 
         <main class="site-main container">
             <div class="row">
