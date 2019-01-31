@@ -540,8 +540,13 @@ body{
 }
 
 .product-comprar{
-  width: 140px;
+  width: 100px;
   height: 40px;
   background-color: #e37d1a;
   float: right;
+}
+
+.product-comprar > span{
+  color: white;
+  margin: auto;
 }
