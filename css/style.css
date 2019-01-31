@@ -572,3 +572,14 @@ body{
   position: relative;
   top: 7px;
 }
+
+.product-soldout{
+  background-color: #f18989;
+  height: 30px;
+  width: 44%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
