@@ -538,3 +538,7 @@ body{
   width: 18%;
   margin-left: 81px;
 }
+
+.product-comprar{
+  float: right;
+}
