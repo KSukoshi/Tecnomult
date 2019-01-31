@@ -469,7 +469,7 @@ body{
   position: fixed;
   display: none;
   height: 120px;
-  width: 100%;
+  width: 102%;
   background-color: #0a0a0a;
   z-index: 100;
 }
