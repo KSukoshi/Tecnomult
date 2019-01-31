@@ -104,11 +104,7 @@
 
             <div class="row">
 
-                {% if "central" in pages.current %}
-                    {%  element 'sidebar-central' %}
-                {% else %}
-                    {%  element 'sidebar-left' %}
-                {% endif %}
+                
 
                 <section class="page-content col-sm-9">
                     {{ content_for_layout }}
