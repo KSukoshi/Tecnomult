@@ -544,9 +544,12 @@ body{
   height: 40px;
   background-color: #e37d1a;
   float: right;
+  text-align: center;
 }
 
 .product-comprar > span{
+  position: relative;
+  top: 12px;
   color: white;
   margin: auto;
 }
