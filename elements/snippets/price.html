@@ -39,15 +39,16 @@
                             </div>
                         </div>
                     {% else %}
-                        <div>
+                    <div class="product-comprar">
+                      <span>COMPRAR</span>
+                    </div>
+                        <div class="product-price-button">
                             {% if product.has_other_prices %}
                                 {{ Translation('apartir') }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
                             {% else %}
                                 {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
-                                <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span> <div class="product-comprar">
-                                  <span>COMPRAR</span>
-                                </div>
+                                <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
                             {% endif %}
                         </div>
                     {% endif %}

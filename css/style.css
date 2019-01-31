@@ -556,3 +556,14 @@ body{
   color: white;
   margin: auto;
 }
+
+.product-price-button{
+  background-color: #cdcdcd;
+  height: 30px;
+  width: 44%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
