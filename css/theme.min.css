@@ -7614,7 +7614,6 @@ html.menu-open .backdrop-icon {
 }
 .product .product-image {
 	position: relative;
-	border-bottom: 1px solid #eee;
 	font-size: 0;
 	height: 200px;
 	margin-bottom: 15px;
