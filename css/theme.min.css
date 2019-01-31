@@ -7604,7 +7604,7 @@ html.menu-open .backdrop-icon {
 	border: 1px solid #e2e2e2;
 	display: block;
 	margin: 15px 0;
-	padding: 15px;
+	padding: 12px;
 	border-bottom:10px solid #000000;
 }
 .product a,
@@ -7717,7 +7717,10 @@ html.menu-open .backdrop-icon {
 	font-family: Roboto, sans-serif;
 	font-size: 1.2rem;
 	font-weight: 400;
-	line-height: 1.4rem
+	line-height: 1.4rem;
+	text-align: center;
+	width: 100%;
+	margin-top: 14px;
 }
 @media screen and (max-width: 767px) {
 	.product .product-payment {
