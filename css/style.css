@@ -545,6 +545,9 @@ body{
   background-color: #e37d1a;
   float: right;
   text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .product-comprar > span{
