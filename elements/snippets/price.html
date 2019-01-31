@@ -47,8 +47,10 @@
                                 {{ Translation('apartir') }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
                             {% else %}
+                            <span class="downer">
                                 {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
+                                </span>
                             {% endif %}
                         </div>
                     {% endif %}

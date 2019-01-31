@@ -567,3 +567,8 @@ body{
   position: relative;
   text-align: center;
 }
+
+.downer{
+  position: relative;
+  top: 10px;
+}
