@@ -7648,19 +7648,18 @@ html.menu-open .backdrop-icon {
 	height: 55px;
 	margin-bottom: 15px;
 	overflow: hidden;
-	font-family: Roboto, sans-serif;
-	font-size: 1.5rem;
-	font-weight: 400;
-	line-height: 1.8rem
+	font-family: 'Nova Square';
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
 }
 @media screen and (max-width: 767px) {
 	.product .product-name {
 		margin-bottom: 7px;
-		font-family: Roboto, sans-serif;
-		font-size: 1.2rem;
-		font-weight: 400;
-		line-height: 1.3rem;
-		text-align: center
+		font-family: 'Nova Square';
+		font-size: 15px;
+		font-weight: bold;
+		text-align: center;
 	}
 }
 .product .product-price {
@@ -7669,14 +7668,14 @@ html.menu-open .backdrop-icon {
 	height: 35px;
 	position: relative;
 	z-index: 1;
-	font-family: Roboto, sans-serif;
+	font-family: 'Nova Square';
 	font-size: 1.5rem;
 	font-weight: 700;
 	line-height: 1.8rem
 }
 @media screen and (max-width: 767px) {
 	.product .product-price {
-		font-family: Roboto, sans-serif;
+		font-family: 'Nova Square';
 		font-size: 1.2rem;
 		font-weight: 700;
 		line-height: 1.3rem;
