@@ -35,6 +35,12 @@
   }
 }
 
+@media screen and (min-width: 1589px){
+  .product-big-tall2{
+    display: none !important;
+  }
+}
+
 
 body{
   overflow: overlay;
@@ -434,6 +440,22 @@ body{
 
 }
 
+.product-big-tall2{
+  height: 450px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #000000;
+  background-image: url('../img/motoback.jpg');
+  transition: 1s;
+}
+
+.product-big-tall2:hover{
+  background-image: url('../img/motobackhover.jpg');
+  transition: 1s;
+
+}
+
 .header-fixed{
   position: fixed;
   display: flex;
@@ -584,4 +606,8 @@ body{
   position: relative;
   text-align: center;
   margin-left: 28%;
+}
+
+.product-right{
+  margin-right: 10px;
 }
