@@ -45,7 +45,9 @@
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
                             {% else %}
                                 {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
-                                <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
+                                <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span> <div class="product-comprar">
+                                  <span>COMPRAR</span>
+                                </div>
                             {% endif %}
                         </div>
                     {% endif %}
@@ -60,7 +62,4 @@
         <p>Indispon&iacute;vel</p>
 
     {% endif %}
-    <div class="product-comprar">
-      <span>COMPRAR</span>
-    </div>
 </div>
