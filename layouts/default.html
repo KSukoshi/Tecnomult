@@ -17,8 +17,13 @@
     <!-- theme styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/theme.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/custom.css', {dynamic: true}) }}" type="text/css">
+
+
 
     <style>
         {{ settings.custom_css }}
@@ -39,9 +44,59 @@
 
     <div class="application">
 
-        {% element 'header' %}
+      {% if pages.current in ['home'] %}
+      {% element 'header' %}
+      {% else %}
+      {% endif %}
 
-        <main class="site-main container">
+      {% if pages.current in ['home'] %}
+      <main class="site-main">
+        <section class="content">
+          <div class="post-holder">
+            <div class="title-post-front">
+              <span><i><t5><t5></i></span>
+            </div>
+            <div class="text-post-front">
+              <div class="product-holder">
+                <div class="product-category-holder">
+                  <div class="product-small">
+                    <span class="small-title">CORSAIR</span>
+                    <div class="btn-holder3">
+                      <button class="btn-login-black"><a href="#">VEJA MAIS</a></button>
+                      </div>
+                  </div>
+                  <div class="product-small2">
+                    <span class="small-title2">ROCCAT</span>
+                    <div class="btn-holder4">
+                      <button class="btn-login"><a href="#">VEJA MAIS</a></button>
+                      </div>
+                  </div>
+                </div>
+                <div class="product-middle">
+                  <div class="product-big-wide">
+                    <div class="title-holder">
+                    <span class="wide-title">HYPERX</span>
+                    <div class="btn-holder">
+                      <button class="btn-login"><a href="#">VEJA MAIS</a></button>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="product-right">
+                  <div class="product-big-tall"><div class="title-holder">
+                  <span class="tall-title">LOGITECH</span>
+                  <div class="btn-holder2">
+                    <button class="btn-login"><a href="#">VEJA MAIS</a></button>
+                    </div>
+                    </div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      {% else %}
+      {% endif %}
+
             <div class="row">
 
                 {% if "central" in pages.current %}
@@ -114,8 +169,10 @@
     {{ store.chat }}
 
     <!-- theme scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ asset('js/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/theme.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/fixednav.js') }}"></script>
 
     {% if settings.background_image %}
     <style>
