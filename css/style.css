@@ -43,8 +43,6 @@
 
 
 body{
-  overflow: overlay;
-  overflow-x: hidden;
   background: #000000;
 }
 
