@@ -575,6 +575,7 @@ body{
 
 .product-soldout{
   background-color: #f18989;
+  color: white;
   height: 30px;
   width: 44%;
   -webkit-border-radius: 10px;
