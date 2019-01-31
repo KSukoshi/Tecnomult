@@ -521,3 +521,8 @@ body{
 .darken{
   background-color: #eaeaea;
 }
+
+.products-item-each{
+  width: 20%;
+  margin-left: 52px;
+}
