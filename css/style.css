@@ -29,6 +29,12 @@
   }
 }
 
+@media screen and (max-width: 1096px){
+  .products-item-each{
+    margin-left: 0px !important;
+  }
+}
+
 
 body{
   overflow: overlay;
