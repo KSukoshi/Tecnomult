@@ -53,15 +53,22 @@
 
 @media screen and (max-width: 1406px){
   .products-item-each{
-    width: 22%;
-    margin-left: 28px;
+    width: 22% !important;
+    margin-left: 28px !important;
   }
 }
 
 @media screen and (max-width: 1137px){
   .products-item-each{
-    width: 25%;
-    margin-left: 0px ;
+    width: 25% !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .products-item-each{
+    width: auto !important;
+    margin-left: 0px !important;
   }
 }
 
