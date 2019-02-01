@@ -60,8 +60,8 @@
 
 @media screen and (max-width: 1137px){
   .products-item-each{
-    width: 24% !important;
-    margin-left: 4px !important;
+    width: 25% !important;
+    margin-left: 0px !important;
   }
 }
 
