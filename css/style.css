@@ -310,7 +310,7 @@ body{
   padding: 16px;
   font-size: 16px;
   border: none;
-  decoration: none;
+  text-decoration: none;
 }
 
 .dropbtn:hover {
@@ -321,7 +321,7 @@ body{
   padding: 16px;
   font-size: 16px;
   border: none;
-  decoration: none;
+  text-decoration: none;
 }
 
 .dropdown {
