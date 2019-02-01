@@ -51,6 +51,13 @@
   }
 }
 
+@media screen and (max-width: 1406px){
+  .products-item-each{
+    width: 22% !important;
+    margin-left: 28px !important;
+  }
+}
+
 
 body{
   overflow-x: hidden;
