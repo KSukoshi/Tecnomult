@@ -122,15 +122,7 @@
 
                 {% if pages.current in ['catalog', 'search'] %}
                     {% if settings.history_position == 1 %}
-                        <section class="products-visited col-sm-12">
-                            <h4>{{ Translation('confira_tambem') }}</h4>
-                            <h3 class="related-title">{{ Translation('produtos_visitados') }}</h3>
-                            {% element 'snippets/history' {
-                                'store.id': store.id,
-                                'pages.current': pages.current,
-                                'category.id': category.id
-                            } %}
-                        </section>
+
                     {% endif %}
                 {% endif %}
             </div>
@@ -142,15 +134,7 @@
 
         {% if pages.current in ['catalog', 'search', 'product'] %}
             {% if settings.history_position == 2 %}
-                <section class="products-visited col-sm-12">
-                    <h4>{{ Translation('confira_tambem') }}</h4>
-                    <h3 class="related-title">{{ Translation('produtos_visitados') }}</h3>
-                    {% element 'snippets/history' {
-                        'store.id': store.id,
-                        'pages.current': pages.current,
-                        'category.id': category.id
-                    } %}
-                </section>
+              
             {% endif %}
         {% endif %}
 
