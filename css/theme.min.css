@@ -7604,7 +7604,7 @@ html.menu-open .backdrop-icon {
 	display: block;
 	margin: 15px 0;
 	padding: 12px;
-	border-bottom:10px solid #000000;
+	border-bottom:4px solid #000000;
 }
 .product a,
 .product a:active,
