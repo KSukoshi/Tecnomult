@@ -1035,7 +1035,9 @@ html {
 	margin-top: 0
 }
 .page-content {
-	z-index: 5
+	z-index: 5;
+	width: 90%;
+	margin: auto;
 }
 .page-content .container {
 	padding: 0;
