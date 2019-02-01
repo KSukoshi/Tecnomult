@@ -311,7 +311,17 @@ body{
   font-size: 16px;
   border: none;
   decoration: none;
-  pointer-events: none;
+}
+
+.dropbtn:hover {
+  background-color: #ffffff00;
+  color: white;
+  font-family: 'Nova Square';
+  font-weight: bold;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  decoration: none;
 }
 
 .dropdown {
