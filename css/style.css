@@ -646,3 +646,7 @@ body{
 .product-right{
   margin-right: 10px;
 }
+
+.login-holder{
+  width: 255px;
+}
