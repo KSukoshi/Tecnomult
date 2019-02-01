@@ -2,7 +2,7 @@
     <div class="showcase clearfix" data-tray-tst="vitrine_home">
         <ul class="row">
         {% for product in products %}
-            
+            {% set ranking = product.ranking %}
             <li class="col-sm-4 products-item-each" data-tray-tst="vitrine_produto">
                 {% element 'snippets/product' {"product": product} %}
             </li>

@@ -171,11 +171,7 @@
                 <section class="products-visited col-sm-12">
                     <h4>{{ Translation('confira_tambem') }}</h4>
                     <h3 class="related-title">{{ Translation('produtos_visitados') }}</h3>
-                    {% element 'snippets/history' {
-                        'store.id': store.id,
-                        'pages.current': pages.current,
-                        'category.id': category.id
-                    } %}
+                    
                 </section>
             {% endif %}
         {% endif %}
