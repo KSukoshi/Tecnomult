@@ -119,7 +119,8 @@
                     {{ content_for_layout }}
                 </section>
 
-                
+                {% if pages.current in ['catalog', 'search'] %}
+                    {% if settings.history_position == 1 %}
                         <section class="products-visited col-sm-12">
                             <h4>{{ Translation('confira_tambem') }}</h4>
                             <h3 class="related-title">{{ Translation('produtos_visitados') }}</h3>
