@@ -39,6 +39,10 @@
   .product-big-tall2{
     display: none !important;
   }
+
+  .product-big-tall{
+    display: none !important;
+  }
 }
 
 
