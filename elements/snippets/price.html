@@ -9,7 +9,7 @@
 
                 <div class="prices" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                     {% if product.has_variation %}
-                        <span class="price-various">{{ Translation('a_partir_de') }}</span>
+                        <span class="price-various"></span>
                     {% endif %}
 
                     {% if settings.price_before_style == 'strike' or settings.price_before_style == 'strike-depor' %}
@@ -30,7 +30,7 @@
                         <div class="price-promotion">
                             <div class="price-off">
                                 {% if product.has_other_prices %}
-                                    {{ Translation('apartir') }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
+                                    <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                     <span itemprop="price" content="{{ product.price_offer }}">{{ product.price_offer|currency  }}</span>
                                 {% else %}
                                     {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
@@ -44,7 +44,7 @@
                     </div>
                         <div class="product-price-button">
                             {% if product.has_other_prices %}
-                                {{ Translation('apartir') }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
+                                <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
                             {% else %}
                             <span class="downer">
