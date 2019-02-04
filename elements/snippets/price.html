@@ -9,7 +9,7 @@
 
                 <div class="prices" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                     {% if product.has_variation %}
-                        <span class="price-various"></span>
+
                     {% endif %}
 
                     {% if settings.price_before_style == 'strike' or settings.price_before_style == 'strike-depor' %}
@@ -22,9 +22,10 @@
                     {% endif %}
 
                     {% if product.price_offer > 0 and product.show_price %}
-                        <div class="price-before {{ priceStyle }}">
+                        <div class="price-before {{ priceStyle }}"><span class="downer">
                             {{ priceOld }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                             <span>{{ product.price|currency }}</span>
+                            </span>
                         </div>
 
                         <div class="price-promotion">
@@ -35,8 +36,10 @@
                                     <span itemprop="price" content="{{ product.price_offer }}">{{ product.price_offer|currency  }}</span>
                                     </span>
                                 {% else %}
+                                <span class="downer">
                                     {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                     <span itemprop="price" content="{{ product.price_offer }}">{{ product.price_offer|currency  }}</span>
+                                    </span>
                                 {% endif %}
                             </div>
                         </div>
@@ -49,7 +52,7 @@
                             <span class="downer">
                                 <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
-                                <span>
+                                </span>
                             {% else %}
                             <span class="downer">
                                 {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
