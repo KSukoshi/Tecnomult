@@ -30,8 +30,10 @@
                         <div class="price-promotion">
                             <div class="price-off">
                                 {% if product.has_other_prices %}
+                                <span class="downer">
                                     <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                     <span itemprop="price" content="{{ product.price_offer }}">{{ product.price_offer|currency  }}</span>
+                                    </span>
                                 {% else %}
                                     {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                     <span itemprop="price" content="{{ product.price_offer }}">{{ product.price_offer|currency  }}</span>
@@ -44,8 +46,10 @@
                     </div>
                         <div class="product-price-button">
                             {% if product.has_other_prices %}
+                            <span class="downer">
                                 <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
                                 <span itemprop="price" content="{{ product.price }}">{{ product.price|currency  }}</span>
+                                <span>
                             {% else %}
                             <span class="downer">
                                 {{ priceOld ? 'Por: ' }} <abbr class="currency" title="BRL" itemprop="priceCurrency" content="BRL">{{ settings.currency }}</abbr>
