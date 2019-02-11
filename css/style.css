@@ -681,3 +681,73 @@ body{
 .login-holder{
   width: 255px;
 }
+
+.side-bar-holder{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  float: left;
+  top: 30%;
+  transition: 1000ms;
+}
+
+.search-bar-side{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  float: left;
+  width: 550px;
+  height: 75px;
+  left: -490;
+  background-color: #000000;
+  transition-duration: 1000ms;
+}
+
+.search-bar-side:hover{
+  transition-duration: 1000ms;
+  left: -16px;
+}
+
+.search-bar-side2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  float: left;
+  width: 550px;
+  height: 75px;
+  left: -490;
+  background-color: #000000;
+  transition-duration: 1000ms;
+}
+
+.search-bar-side2:hover{
+  transition: 1000ms;
+  left: -250px;
+}
+
+.search-bar-side3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  float: left;
+  width: 550px;
+  height: 75px;
+  left: -490;
+  background-color: #000000;
+  transition-duration: 1000ms;
+}
+
+.search-bar-side3:hover{
+  transition: 1000ms;
+  left: -250px;
+}
+
+.icon-adjust{
+  margin: auto;
+  margin-left: 500px;
+  font-size: 30px;
+}
