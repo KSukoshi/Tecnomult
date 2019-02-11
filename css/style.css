@@ -700,7 +700,7 @@ body{
   float: left;
   width: 550px;
   height: 75px;
-  left: -490;
+  left: -490px;
   background-color: #000000;
   transition-duration: 1000ms;
 }
@@ -718,7 +718,7 @@ body{
   float: left;
   width: 550px;
   height: 75px;
-  left: -490;
+  left: -490px;
   background-color: #000000;
   transition-duration: 1000ms;
 }
@@ -736,7 +736,7 @@ body{
   float: left;
   width: 550px;
   height: 75px;
-  left: -490;
+  left: -490px;
   background-color: #000000;
   transition-duration: 1000ms;
 }
