@@ -703,6 +703,7 @@ body{
   left: -490px;
   background-color: #000000;
   transition-duration: 1000ms;
+  z-index: 1000;
 }
 
 .search-bar-side:hover{
