@@ -748,7 +748,15 @@ body{
 }
 
 .icon-adjust{
+  position: absolute;
   margin: auto;
-  margin-left: 500px;
   font-size: 30px;
+  left: 500px;
+  top: 22px;
+}
+
+.search{
+    width: 413px;
+    margin-top: 9px;
+    margin-left: 35px;
 }
