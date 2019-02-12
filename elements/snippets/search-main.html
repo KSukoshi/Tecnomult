@@ -1,0 +1,8 @@
+<div class="search">
+    <form role="form" action="{{ links.search }}" method="get" data-search="suggestion">
+        <input type="hidden" name="loja" value="{{ store.id }}">
+        <div>
+            <input class="search-key" type="text" data-input="suggestion" placeholder="{{ Translation('buscar') }}" name="palavra_busca" tabindex="1" data-tray-tst="busca_palavra" required>
+        </div>
+    </form>
+</div>
