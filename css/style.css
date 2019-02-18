@@ -755,6 +755,15 @@ body{
   top: 22px;
 }
 
+.icon-adjust2{
+  display: none;
+  position: absolute;
+  margin: auto;
+  font-size: 30px;
+  left: 500px;
+  top: 22px;
+}
+
 .search{
     width: 413px;
     margin-top: 9px;
@@ -797,10 +806,5 @@ body{
   width: 69px;
   right: -38px;
   top: 32px;
-  transition: 1000ms;
-}
-
-.my-account-login:hover{
-  display: inline !important;
   transition: 1000ms;
 }
