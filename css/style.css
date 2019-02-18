@@ -793,11 +793,13 @@ body{
   font-family: roboto;
   font-size: 11px;
   position: absolute;
-  width: 69px;
+  width: 93px;
   right: -38px;
-  top: 32px;
+  top: 55px;
   transition: 1000ms;
   opacity: 0;
+  color: white;
+  font-weight: bold;
 }
 
 .my-account-login:hover > span{
