@@ -800,7 +800,7 @@ body{
   opacity: 0;
 }
 
-.customer:hover > .my-account-login > span{
+.customer-front:hover > .my-account-login > span{
   transition: 1000ms;
   opacity: 1;
 }
