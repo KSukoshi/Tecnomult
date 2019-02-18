@@ -755,6 +755,11 @@ body{
   top: 16px;
 }
 
+.icon-add {
+  left: 496px !important;
+  top: 22px !important;
+}
+
 .search{
   width: 413px;
   margin-top: 9px;
