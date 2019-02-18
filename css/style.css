@@ -800,7 +800,7 @@ body{
   opacity: 0;
 }
 
-.search-bar-side2:hover > .icon-adjust > .my-account-login > span{
+.customer:hover > .my-account-login > span{
   transition: 1000ms;
   opacity: 1;
 }
