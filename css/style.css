@@ -776,3 +776,15 @@ body{
   margin-left: 281px;
   margin-top: 10px;
 }
+
+.costumer-logged-in{
+  text-align: center;
+  position: absolute;
+  left: 184px;
+  top: -9px;
+}
+
+.logout-icon{
+  font-size: 28px;
+  margin-bottom: 9px;
+}
