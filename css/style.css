@@ -788,3 +788,12 @@ body{
   font-size: 28px;
   margin-bottom: 9px;
 }
+
+.my-account-login{
+    font-family: roboto;
+    font-size: 11px;
+    position: absolute;
+    width: 69px;
+    right: -38px;
+    top: 32px;
+}
