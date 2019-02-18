@@ -760,3 +760,11 @@ body{
     margin-top: 9px;
     margin-left: 35px;
 }
+
+.cart-info-front{
+  background-color: #333 !important;
+  width: 142px;
+  margin-left: 306px;
+  margin-top: 10px;
+  color: white;
+}
