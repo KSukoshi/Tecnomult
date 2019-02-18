@@ -789,7 +789,7 @@ body{
   margin-bottom: 9px;
 }
 
-.hover-trigger > .my-account-login:hover{
+.search-bar-side2 > .my-account-login:hover{
   display: inline !important;
   transition: 1000ms;
 }
