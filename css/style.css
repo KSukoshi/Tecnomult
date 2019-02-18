@@ -797,4 +797,10 @@ body{
   right: -38px;
   top: 32px;
   transition: 1000ms;
+  opacity: 0;
+}
+
+.my-account-login:hover > span{
+  transition: 1000ms;
+  opacity: 1;
 }
