@@ -789,7 +789,7 @@ body{
   margin-bottom: 9px;
 }
 
-.my-account-login > span{
+.search-bar-side2 > .icon-adjust > .my-account-login > span{
   font-family: roboto;
   font-size: 11px;
   position: absolute;
@@ -800,7 +800,7 @@ body{
   opacity: 0;
 }
 
-.search-bar-side2:hover > .my-account-login{
+.search-bar-side2:hover > .icon-adjust > .my-account-login > span{
   transition: 1000ms;
   opacity: 1;
 }
