@@ -789,11 +789,18 @@ body{
   margin-bottom: 9px;
 }
 
+.hover-trigger > span:hover{
+  display: block !important;
+  transition: 1000ms;
+}
+
 .my-account-login{
-    font-family: roboto;
-    font-size: 11px;
-    position: absolute;
-    width: 69px;
-    right: -38px;
-    top: 32px;
+  display: none;
+  font-family: roboto;
+  font-size: 11px;
+  position: absolute;
+  width: 69px;
+  right: -38px;
+  top: 32px;
+  transition: 1000ms;
 }
