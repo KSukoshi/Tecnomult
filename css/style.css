@@ -789,7 +789,7 @@ body{
   margin-bottom: 9px;
 }
 
-.hover-trigger > span:hover{
+.hover-trigger:hover > span{
   display: block !important;
   transition: 1000ms;
 }
