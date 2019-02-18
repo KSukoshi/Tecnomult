@@ -1,0 +1,10 @@
+<a href="{{ links.cart }}" class="cart clearfix" data-tray-tst="link_qtde_carrinho">
+    <div class="cart-info hidden-xs">
+        <div class="cart-amount">
+            <span data-cart="amount" data-tray-tst="carrinho_qtde">{{ cart.amount }}</span> {{ Translation('itens') }}
+        </div>
+        <div class="cart-total">
+            {{ settings.currency }} <span data-cart="price" data-tray-tst="carrinho_valor">{{ cart.price }}</span>
+        </div>
+    </div>
+</a>
