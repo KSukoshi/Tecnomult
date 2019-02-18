@@ -756,9 +756,9 @@ body{
 }
 
 .search{
-    width: 413px;
-    margin-top: 9px;
-    margin-left: 35px;
+  width: 413px;
+  margin-top: 9px;
+  margin-left: 35px;
 }
 
 .cart-info-front{
@@ -790,7 +790,6 @@ body{
 }
 
 .my-account-login > span{
-  display: none;
   font-family: roboto;
   font-size: 11px;
   position: absolute;
