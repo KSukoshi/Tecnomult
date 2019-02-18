@@ -789,11 +789,6 @@ body{
   margin-bottom: 9px;
 }
 
-.search-bar-side2 > .my-account-login:hover{
-  display: inline !important;
-  transition: 1000ms;
-}
-
 .my-account-login{
   display: none;
   font-family: roboto;
@@ -802,5 +797,10 @@ body{
   width: 69px;
   right: -38px;
   top: 32px;
+  transition: 1000ms;
+}
+
+.my-account-login:hover{
+  display: inline !important;
   transition: 1000ms;
 }
