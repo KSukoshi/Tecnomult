@@ -764,6 +764,16 @@ body{
   top: 22px;
 }
 
+.search-bar-side2 > .icon-adjust:hover{
+  transition: 1000ms;
+  display: none;
+}
+
+.search-bar-side2 > .icon-adjust2:hover{
+  transition: 1000ms;
+  display: inline;
+}
+
 .search{
     width: 413px;
     margin-top: 9px;
