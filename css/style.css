@@ -755,25 +755,6 @@ body{
   top: 22px;
 }
 
-.icon-adjust2{
-  display: none;
-  position: absolute;
-  margin: auto;
-  font-size: 30px;
-  left: 500px;
-  top: 22px;
-}
-
-.search-bar-side2:hover > .icon-adjust{
-  transition: 1000ms;
-  display: none;
-}
-
-.search-bar-side2:hover > .icon-adjust2{
-  transition: 1000ms;
-  display: inline;
-}
-
 .search{
     width: 413px;
     margin-top: 9px;
