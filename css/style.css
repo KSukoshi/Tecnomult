@@ -789,7 +789,7 @@ body{
   margin-bottom: 9px;
 }
 
-.my-account-login{
+.my-account-login > span{
   display: none;
   font-family: roboto;
   font-size: 11px;
