@@ -763,6 +763,7 @@ body{
 
 .cart-info-front{
   background-color: #333 !important;
+  border: none !important;
   width: 142px;
   margin-left: 306px;
   margin-top: 10px;
