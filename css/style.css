@@ -789,8 +789,8 @@ body{
   margin-bottom: 9px;
 }
 
-.hover-trigger:hover > span{
-  display: block !important;
+.hover-trigger > .my-account-login:hover{
+  display: inline !important;
   transition: 1000ms;
 }
 
