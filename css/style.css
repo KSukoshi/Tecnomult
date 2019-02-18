@@ -789,7 +789,7 @@ body{
   margin-bottom: 9px;
 }
 
-.search-bar-side2 > .icon-adjust > .my-account-login > span{
+ .my-account-login > span{
   font-family: roboto;
   font-size: 11px;
   position: absolute;
