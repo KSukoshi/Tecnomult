@@ -764,12 +764,12 @@ body{
   top: 22px;
 }
 
-.search-bar-side2 > .icon-adjust:hover{
+.search-bar-side2:hover > .icon-adjust{
   transition: 1000ms;
   display: none;
 }
 
-.search-bar-side2 > .icon-adjust2:hover{
+.search-bar-side2:hover > .icon-adjust2{
   transition: 1000ms;
   display: inline;
 }
