@@ -112,7 +112,7 @@ body{
    background-position: center;
    background-attachment: fixed;
    overflow: none;
-   background-image: url("../img/motospeed-back.jpg");
+   background-image: url("../img/motospeed-back0.jpg");
    transition: 1000ms;
   }
 
@@ -124,7 +124,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     overflow: none;
-    background-image: url("../img/motospeed-back.jpg");
+    background-image: url("../img/motospeed-back0.jpg");
     transition: 1000ms;
    }
 
