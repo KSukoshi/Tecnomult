@@ -112,7 +112,7 @@ body{
    background-position: center;
    background-attachment: fixed;
    overflow: none;
-   background: hsl(30, 50%, 50%);
+   background-image: url("../img/city-background.jpg");
    transition: 1000ms;
   }
 
@@ -124,7 +124,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     overflow: none;
-    background: hsl(60, 50%, 50%);
+    background-image: url("../img/city-background.jpg");
     transition: 1000ms;
    }
 
