@@ -787,6 +787,7 @@ body{
   position: absolute;
   left: 184px;
   top: -9px;
+  text-decoration: none;
 }
 
 .logout-icon{
