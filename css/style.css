@@ -88,6 +88,7 @@ body{
   background-position: center;
   background-attachment: fixed;
   overflow: none;
+  background-image: url("../img/city-background.jpg");
   transition: 1000ms;
 }
 
