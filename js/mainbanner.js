@@ -2,7 +2,7 @@ function run(interval, frames) {
     var int = 1;
 
     function func() {
-        document.body.id = "b"+int;
+        document.getElementById("landpage").className = "b"+int;
         int++;
         if(int === frames) { int = 1; }
     }
@@ -10,4 +10,4 @@ function run(interval, frames) {
     var swap = window.setInterval(func, interval);
 }
 
-run(10000, 10); //milliseconds, frames
+run(1000, 10); //milliseconds, frames
