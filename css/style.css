@@ -101,7 +101,6 @@ body{
   background-attachment: fixed;
   background-image: url("../img/city-background.jpg");
   overflow: none;
-  background: hsl(0, 50%, 50%);
   transition: 1000ms;
  }
 
