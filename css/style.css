@@ -122,6 +122,7 @@ body{
   user-select: none;
   margin: auto;
   margin-bottom: 20px;
+  z-index: 1000;
 }
 
 .btn-register{
