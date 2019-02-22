@@ -10,4 +10,4 @@ function run(interval, frames) {
     var swap = window.setInterval(func, interval);
 }
 
-run(3000, 3); //milliseconds, frames
+run(3000, 4); //milliseconds, frames
