@@ -729,6 +729,7 @@ body{
   top: 30%;
   transition: 1000ms;
   z-index: 1000;
+  width: 62px;
 }
 
 .search-bar-side{
