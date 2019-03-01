@@ -7607,6 +7607,9 @@ html.menu-open .backdrop-icon {
 	margin: 45px 0;
 	padding: 12px;
 	border-bottom:4px solid #000000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .product a,
 .product a:active,
