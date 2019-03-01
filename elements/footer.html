@@ -1,6 +1,6 @@
 {% set checkout = "checkout" in pages.current ? "true" : "false" %}
 <footer>
-    
+
     <div class="foo-content">
         <div class="container">
             <div class="col-sm-6 col-md-2 col-xs-12">
@@ -16,13 +16,13 @@
                     </li>
                 </ul>
             </div>
-            
+
             {%
-                if 
+                if
                 Translation('ag_atendimento') != '' or
-                Translation('ag_telefone_1') != '' or 
-                Translation('ag_telefone_2') != '' or 
-                Translation('ag_email_1') != '' or 
+                Translation('ag_telefone_1') != '' or
+                Translation('ag_telefone_2') != '' or
+                Translation('ag_email_1') != '' or
                 Translation('ag_email_2') != ''
             %}
             <div class="col-sm-6 col-md-4 col-xs-12 foo-contact">
@@ -36,7 +36,7 @@
                         <p data-tray-tst="horario_atendimento">{{ Translation('ag_atendimento') }}</p>
                     </li>
                     {% endif %}
-                    
+
                     {% if Translation('ag_telefone_1') != '' or Translation('ag_telefone_2') != '' %}
                     <li class="store-phones">
                         <i>
@@ -46,10 +46,12 @@
                             {{ Translation('ag_telefone_1') }}
                             <br>
                             {{ Translation('ag_telefone_2') }}
+                            <br>
+                            <i class="fab fa-whatsapp"></i> (11) 94706-1505
                         </p>
                     </li>
                     {% endif %}
-                    
+
                     {% if Translation('ag_email_1') != '' or Translation('ag_email_2') != '' %}
                     <li class="store-email">
                         <i>
@@ -65,12 +67,12 @@
                 </ul>
             </div>
             {% endif %}
-            
-            {% if settings.facebook or 
-                  settings.twitter or 
+
+            {% if settings.facebook or
+                  settings.twitter or
                   settings.whatsapp or
-                  settings.pinterest or 
-                  settings.youtube or 
+                  settings.pinterest or
+                  settings.youtube or
                   settings.instagram
             %}
             <div class="col-sm-6 col-md-3 col-xs-12 social-list">
@@ -78,11 +80,11 @@
                 {% element 'snippets/social-list' %}
             </div>
             {% endif %}
-            
+
             <div class="col-sm-6 col-md-3 col-xs-12 payment-gateways">
                 <h3>{{ Translation('pagamento') }}</h3>
                 {% element 'snippets/payment-list' %}
-                
+
                 {% if seals.ebit or seals.hackersafe %}
                     <h3 class="security-title">{{ Translation('seguranca') }}</h3>
                     <ul class="foo-seals">
@@ -97,7 +99,7 @@
             </div>
         </div>
     </div>
-    
+
     {% if Translation('ag_mensagem_rodape') != '' %}
     <div class="foo-message">
         <div class="container">
