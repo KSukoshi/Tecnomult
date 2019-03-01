@@ -124,7 +124,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     overflow: none;
-    background-image: url("../img/deathring2.jpg");
+    background-image: url("../img/lightring.jpg");
     transition: 1000ms;
    }
 
