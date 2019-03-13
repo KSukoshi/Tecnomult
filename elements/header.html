@@ -4,6 +4,13 @@
   <div class="logo-holder animated slideInDown">
     <a href="https://www.tecnomult.com"><img src="{{ asset('img/tecnologo.png') }}" width="250px" height="auto"></a>
   </div>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+  </div>
   <div class="menu-holder animated slideInDown">
     <div class="dropdown">
       <a href="http://www.tecnomult.com/computadores" class="dropbtn"><span class="orange-plus">+</span> COMPUTADOR</a>
@@ -82,7 +89,7 @@
       </div>
     </div>
   </div>
-  <div class="mobile-menu animated rotateIn"><span class="fas fa-bars"></span></div>
+  <div class="mobile-menu animated rotateIn"><span onclick="openNav()" class="fas fa-bars"></span></div>
   </div>
   <div class="side-bar-holder">
 <div class="search-bar-side">
