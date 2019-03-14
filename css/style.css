@@ -728,7 +728,7 @@ body{
   float: left;
   top: 30%;
   transition: 1000ms;
-  z-index: 1000;
+  z-index: 24;
   width: 62px;
 }
 
@@ -857,9 +857,9 @@ body{
   height: 980px;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #050505;
   overflow-x: hidden;
   padding-top: 60px;
