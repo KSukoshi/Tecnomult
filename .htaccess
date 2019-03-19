@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{https_HOST} !^www\.tecnomult\.com
-RewriteRule (.*) https://www.tecnomult.com/$1 [R=301,L]
