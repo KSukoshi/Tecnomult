@@ -1,4 +1,4 @@
-<div itemscope itemtype="http://schema.org/Product" class="product{{ product.has_other_prices ? ' has-other-prices' }}">
+<div itemscope itemtype="https://schema.org/Product" class="product{{ product.has_other_prices ? ' has-other-prices' }}">
     <a href="{{ settings.buy_to_cart ? links.cart_add ~ product.id : product.link }}" data-tray-tst="vitrine_produto_link_imagem">
         <div class="product-image">
             {% if product.images %}
