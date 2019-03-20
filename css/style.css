@@ -499,6 +499,36 @@ body{
     background-image: url('../img/roccbackhover.jpg');
 }
 
+.product-small3{
+  height: 220px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+  background-image: url('../img/logiback.jpg');
+  transition: 1s;
+}
+
+.product-small3:hover{
+    transition: 1s;
+    background-image: url('../img/logibackhover.jpg');
+}
+
+.product-small4{
+  height: 220px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #000000;
+  background-image: url('../img/motoback.jpg');
+  transition: 1s;
+}
+
+.product-small4:hover{
+    transition: 1s;
+    background-image: url('../img/motobackhover.jpg');
+}
+
 .product-big-wide{
   height: 450px;
   width: 650px;
