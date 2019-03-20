@@ -72,6 +72,14 @@
   }
 }
 
+@media screen and (min-width: 1611px){
+.product-small3{
+  display: none !important;
+}
+.product-small4{
+  display: none !important;
+}
+}
 
 body{
   overflow-x: hidden;
