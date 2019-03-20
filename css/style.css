@@ -503,14 +503,17 @@ body{
   height: 220px;
   width: 300px;
   margin-top: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
   background-color: #000000;
   background-image: url('../img/logiback.jpg');
+  background-position: top;
   transition: 1s;
 }
 
 .product-small3:hover{
     transition: 1s;
+    background-position: right;
     background-image: url('../img/logibackhover.jpg');
 }
 
