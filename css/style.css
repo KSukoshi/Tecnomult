@@ -521,14 +521,17 @@ body{
   height: 220px;
   width: 300px;
   margin-top: 10px;
+  margin-left: 10px;
   margin-bottom: 10px;
   background-color: #000000;
+  background-position: top;
   background-image: url('../img/motoback.jpg');
   transition: 1s;
 }
 
 .product-small4:hover{
     transition: 1s;
+    background-position: right;
     background-image: url('../img/motobackhover.jpg');
 }
 
