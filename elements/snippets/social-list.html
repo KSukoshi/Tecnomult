@@ -1,7 +1,7 @@
 <ul class="social-list">
     {% if settings.facebook %}
     <li>
-        <a href="httpss://www.facebook.com/{{ settings.facebook }}" target="_blank">
+        <a href="https://www.facebook.com/{{ settings.facebook }}" target="_blank">
             <i class="fab fa-facebook" style="color: white; font-size: 20px;"></i>
             Facebook
         </a>
@@ -10,7 +10,7 @@
 
     {% if settings.twitter %}
     <li>
-        <a href="httpss://www.twitter.com/{{ settings.twitter }}" target="_blank">
+        <a href="https://www.twitter.com/{{ settings.twitter }}" target="_blank">
             <img src="{{ asset('img/twitter.svg') }}" alt="Twitter" width="20" height="20">
             Twitter
         </a>
@@ -19,7 +19,7 @@
 
     {% if settings.whatsapp %}
     <li>
-        <a href="httpss://api.whatsapp.com/send?phone=55{{ settings.whatsapp|replace({'(': '', ')': '', '-': '', ' ': ''}) }}" target="_blank" rel="noopener">
+        <a href="https://api.whatsapp.com/send?phone=55{{ settings.whatsapp|replace({'(': '', ')': '', '-': '', ' ': ''}) }}" target="_blank" rel="noopener">
             <img src="{{ asset('img/whatsapp.svg') }}" alt="Whatsapp" width="20" height="20">
             {{ settings.whatsapp }}
         </a>
@@ -28,7 +28,7 @@
 
     {% if settings.youtube %}
     <li>
-        <a href="httpss://www.youtube.com/{{ settings.youtube }}" target="_blank">
+        <a href="https://www.youtube.com/{{ settings.youtube }}" target="_blank">
           <i class="fab fa-youtube" style="color: white; font-size: 20px;"></i>
             YouTube
         </a>
@@ -37,7 +37,7 @@
 
     {% if settings.pinterest %}
     <li>
-        <a href="httpss://br.pinterest.com/{{ settings.pinterest }}" target="_blank">
+        <a href="https://br.pinterest.com/{{ settings.pinterest }}" target="_blank">
             <img src="{{ asset('img/pinterest.svg') }}" alt="Pinterest" width="20" height="20">
             Pinterest
         </a>
@@ -46,7 +46,7 @@
 
     {% if settings.instagram %}
     <li>
-        <a href="httpss://www.instagram.com/{{ settings.instagram }}" target="_blank">
+        <a href="https://www.instagram.com/{{ settings.instagram }}" target="_blank">
             <i class="fab fa-instagram" style="color: white; font-size: 20px;"></i>
             Instagram
         </a>

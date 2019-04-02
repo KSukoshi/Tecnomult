@@ -6,7 +6,7 @@
                 <a href="{{ links.logout }}">{{ Translation('sair') }}</a></li>
             </span>
             <span class="tray-hide" data-logged-user="false">
-                {{ Translation('bem_vindo_central') }}, <a href="{{ links.login }}" data-tray-tst="login" class="{{ utils.is_httpss ? 'modal-login' }}">{{ Translation('login') }}</a> {{ Translation('ou') }} <a href="{{ links.register }}" data-tray-tst="cadastro">{{ Translation('cadastre_se') }}</a>
+                {{ Translation('bem_vindo_central') }}, <a href="{{ links.login }}" data-tray-tst="login" class="{{ utils.is_https ? 'modal-login' }}">{{ Translation('login') }}</a> {{ Translation('ou') }} <a href="{{ links.register }}" data-tray-tst="cadastro">{{ Translation('cadastre_se') }}</a>
             </span>
         </div>
         <div class="col-sm-5 col-md-6 orders">
@@ -14,7 +14,7 @@
                 <a href="{{ links.logout }}">{{ Translation('sair') }}</a>
             </span>
             <span class="tray-hide" data-logged-user="false">
-                <a href="{{ links.login }}" class="{{ utils.is_httpss ? 'modal-login' }}">{{ Translation('login') }}</a>
+                <a href="{{ links.login }}" class="{{ utils.is_https ? 'modal-login' }}">{{ Translation('login') }}</a>
             </span>
             <a href="{{ links.orders }}" data-tray-tst="meus_pedidos">{{ Translation('meus_pedidos') }}</a>
             <a href="{{ links.central }}" data-tray-tst="meu_cadastro">{{ Translation('acessar_conta') }}</a>
