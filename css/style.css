@@ -391,7 +391,7 @@ body{
 }
 
 .dropbtn {
-  background-color: #ffffff00;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   font-family: 'Nova Square';
   font-weight: bold;
@@ -402,7 +402,7 @@ body{
 }
 
 .dropbtn:hover {
-  background-color: #ffffff00;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   font-family: 'Nova Square';
   font-weight: bold;
