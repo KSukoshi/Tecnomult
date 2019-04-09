@@ -49,9 +49,7 @@
   .product-middle{
     display: none !important;
   }
-  .dropbtn{
-    font-size: 11px !important;
-  }
+
 }
 
 @media screen and (max-width: 1406px){
@@ -83,7 +81,11 @@
   display: none !important;
 }
 }
-
+@media screen and (max-width: 1368px){
+  .dropbtn{
+    font-size: 11px !important;
+  }
+}
 body{
   overflow-x: hidden;
   background: #000000;
