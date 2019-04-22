@@ -4,7 +4,7 @@
     </div>
 {% endif %}
 
-<section id="product-container" class="produto-wrapper product-detail" itemscope itemtype="http://schema.org/Product">
+<section id="product-container" class="produto-wrapper product-detail" itemscope itemtype="https://schema.org/Product">
     {% element 'schema/product' {'product': product} %}
     <div class="clearfix">
 
@@ -179,15 +179,7 @@
 
 <div id="prognoos_ib"></div>
 {% if settings.history_position == 1 %}
-    <section class="products-visited col-sm-12">
-        <h4>{{ Translation('confira_tambem') }}</h4>
-        <h3 class="related-title">{{ Translation('produtos_visitados') }}</h3>
-        {% element 'snippets/history' {
-            'store.id': store.id,
-            'pages.current': pages.current,
-            'category.id': category.id
-        } %}
-    </section>
+  
 {% endif %}
 
 {% if banner.bottom %}
